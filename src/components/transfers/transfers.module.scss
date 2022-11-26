@@ -1,0 +1,21 @@
+.transfers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin-right: 20px;
+  width: 232px;
+  height: 252px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  @media (max-width: 768px) {
+    margin-bottom: 20px;
+    margin-left: 30%;
+  }
+  & .label {
+    cursor: pointer;
+    &:hover {
+      background: #f1fcff;
+    }
+  }
+}
